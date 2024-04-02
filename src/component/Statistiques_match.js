@@ -135,7 +135,7 @@ if (info.lineups) {
                             <div className="kf_overview kf_current_match_wrap">
                                 <h6 className="kf_hd1 margin_0">
                                     <span>Résultat du dernier match</span>
-                                    <a className="prv_btn" href={`/h2h/${info.teams.home.id}/${info.teams.away.id}`}>Vérifier le résultat précédent</a>
+                                    {/*<a className="prv_btn" href="#">Vérifier le résultat précédent</a>*/}
                                 </h6>
                                
                                 {info && info.league && info.fixture && info.teams && info.teams.home && info.teams.away && (

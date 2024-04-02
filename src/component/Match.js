@@ -178,7 +178,7 @@ function Match() {
                         <div className="kf_overview kf_current_match_wrap">
                             <h6 className="kf_hd1 margin_0">
                                 <span>Matches En Direct Live :  {liveMatches.length} </span>
-                                <a className="prv_btn" href="#">Check Previous Result</a>
+                                {/*<a className="prv_btn" href="#">Check Previous Result</a>*/}
                             </h6>
                             {liveMatches.slice(0, visibleMatches).map((match, index) => (
                                 <div key={index} className="kf_opponents_outerwrap"  style={{marginBottom:"20px"}}>
@@ -239,7 +239,7 @@ function Match() {
                                     <div className="kf_overview kf_current_match_wrap">
                                         <h6 className="kf_hd1 margin_0">
                                             <span>Matches Aujourd'hui Total : {fixtures.length}</span>
-                                            <a className="prv_btn" href="#">Check Previous Result</a>
+                                            {/*<a className="prv_btn" href="#">Check Previous Result</a>*/}
                                         </h6>
 
                                         <div className="kf_opponents_outerwrap">
@@ -304,7 +304,7 @@ function Match() {
                 <div className="kf_overview kf_current_match_wrap">
                     <h6 className="kf_hd1 margin_0">
                         <span>Matches Demain Total : {TomorrowFixtures.length}</span>
-                        <a className="prv_btn" href="#">Check Previous Result</a>
+                        {/*<a className="prv_btn" href="#">Check Previous Result</a>*/}
                     </h6>
 
                     <div className="kf_opponents_outerwrap">
@@ -375,7 +375,7 @@ function Match() {
                 <div className="kf_overview kf_current_match_wrap">
                     <h6 className="kf_hd1 margin_0">
                         <span>Matches Hier Total : {LastDayFixtures.length}</span>
-                        <a className="prv_btn" href="#">Check Previous Result</a>
+                        {/*<a className="prv_btn" href="#">Check Previous Result</a>*/}
                     </h6>
 
                     <div className="kf_opponents_outerwrap">
