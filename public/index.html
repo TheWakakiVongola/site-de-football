@@ -1,43 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- DL Menu CSS -->
+  <link href="%PUBLIC_URL%/static/js/dl-menu/component.css" rel="stylesheet">
+  <!-- Slick Slider CSS -->
+  <link href="%PUBLIC_URL%/static/css/slick.css" rel="stylesheet"/>
+  <link href="%PUBLIC_URL%/static/css/slick-theme.css" rel="stylesheet"/>
+  <!-- Font Awesome CSS -->
+  <link href="%PUBLIC_URL%/static/css/font-awesome.css" rel="stylesheet">
+  <!-- SVG Icons CSS -->
+  <link href="%PUBLIC_URL%/static/css/svg-icons.css" rel="stylesheet">
+  <!-- Pretty Photo CSS -->
+  <link href="%PUBLIC_URL%/static/css/prettyPhoto.css" rel="stylesheet">
+  <!-- Typography CSS -->
+  <link href="%PUBLIC_URL%/static/css/typography.css" rel="stylesheet">
+  <!-- Widget CSS -->
+  <link href="%PUBLIC_URL%/static/css/widget.css" rel="stylesheet">
+  <!-- Shortcodes CSS -->
+  <link href="%PUBLIC_URL%/static/css/shortcodes.css" rel="stylesheet">
+  <!-- Custom Main StyleSheet CSS -->
+  <link href="%PUBLIC_URL%/static/style.css" rel="stylesheet">
+  <!-- Color CSS -->
+  <link href="%PUBLIC_URL%/static/css/color.css" rel="stylesheet">
+  <!-- Responsive CSS -->
+  <link href="%PUBLIC_URL%/static/css/responsive.css" rel="stylesheet">
+  <style>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    /* HTML: <div class="loader"></div> */
+      .loader {
+        
+        width: 50px;
+        aspect-ratio: 1;
+        --_c:no-repeat linear-gradient(orange 0 0) 50%; 
+        background: 
+          var(--_c)/100% 50%,
+          var(--_c)/50% 100%;
+        border-radius: 50%;
+        animation: l29 2s infinite linear;
+      }
+      @keyframes l29 {
+        100% {transform: rotate(1turn)}
+      }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+
+      .start-btn {
+          width: 40%;
+          text-align: center;
+          border: 1px solid rgb(228, 127, 64);
+          text-decoration: none;
+          background-color: rgba(81, 37, 10, 0.8);
+          color: white;
+          outline: none;
+          border-radius: 5px;
+        }
+      
+        .start-btn:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 237, 226, 0.8);
+          transform: translateY(-0.1rem);
+          transition: transform 150ms;
+        }
+      
+        .btn {
+          font-size: 30px;
+          padding: 15px 0;
+          width: 300px;
+          text-align: center;
+          border: 2px solid rgb(165, 111, 50);
+          margin-bottom: 15px;
+          text-decoration: none;
+          color: rgb(151, 62, 6);
+          background-color: white;
+          outline: none;
+          border-radius: 5px;
+          padding: 10px 10px;
+        }
+      
+        .btn:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 237, 226, 0.8);
+          transform: translateY(-0.1rem);
+          transition: transform 150ms;
+          background-color: green;
+          color: white;
+        }
+      
+        .home-btn {
+          background-color: cornflowerblue;
+          border: solid 2px rgb(253, 254, 255);
+          color: #FFFFFF;
+          cursor: pointer;
+          border-radius: 5px;
+          text-decoration: none;
+        }
+      
+        .home-btn:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+      
+        }
+      
+        #header {
+          position: relative;
+          padding-left: 35%;
+          padding-bottom: 2%;
+          border-radius: 5px;
+          clear: both;
+        }
+      /* Timer div */
+        #timer {
+          background-color: rgb(128, 0, 0);
+          color: white;
+          border-radius: 5px;
+        }
+      
+        .hide {
+          display: none;
+        }
+      
+      /* Media queries */
+      @media (max-width: 481px) {
+          .btn {
+              font-size: 28px;
+              width: 250px;
+              height: auto;
+            }
+      }
+          
+      @media (max-width: 400px) {
+          .btn {
+              font-size: 26px;
+              width: 200px;
+            }
+      }
+          
+      @media (max-width: 312px) {
+          .btn {
+              font-size: 24px;
+              width: 170px;
+            }
+      }
+        
+      .hide {
+        display: none;
+    }
+
+  </style>
+  <title>React App</title>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <script src="%PUBLIC_URL%/static/js/jquery.js"></script>
+  <script src="%PUBLIC_URL%/static/js/slick.min.js"></script>
+  <script src="%PUBLIC_URL%/static/js/downCount.js"></script>
+  <script src="%PUBLIC_URL%/static/js/waypoints-min.js"></script>
+  <script src="%PUBLIC_URL%/static/js/dl-menu/modernizr.custom.js"></script>
+  <script src="%PUBLIC_URL%/static/js/dl-menu/jquery.dlmenu.js"></script>
+  <script src="%PUBLIC_URL%/static/js/jprogress.js"></script>
+  <script src="%PUBLIC_URL%/static/js/jquery.prettyPhoto.js"></script>
+  <script src="%PUBLIC_URL%/static/js/custom.js"></script>
+  
+</body>
 </html>

@@ -1,0 +1,2475 @@
+{
+  "get": "predictions",
+  "parameters": {
+    "fixture": "198772"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "predictions": {
+        "winner": {
+          "id": 1189,
+          "name": "Deportivo Santani",
+          "comment": "Win or draw"
+        },
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "goals": {
+          "home": "-2.5",
+          "away": "-1.5"
+        },
+        "advice": "Combo Double chance : Deportivo Santani or draw and -3.5 goals",
+        "percent": {
+          "home": "45%",
+          "draw": "45%",
+          "away": "10%"
+        }
+      },
+      "league": {
+        "id": 252,
+        "name": "Division Profesional - Clausura",
+        "country": "Paraguay",
+        "logo": "https://media.api-sports.io/football/leagues/252.png",
+        "flag": "https://media.api-sports.io/flags/py.svg",
+        "season": 2019
+      },
+      "teams": {
+        "home": {
+          "id": 1189,
+          "name": "Deportivo Santani",
+          "logo": "https://media.api-sports.io/football/teams/1189.png",
+          "last_5": {
+            "played": 5,
+            "form": "60%",
+            "att": "60%",
+            "def": "0%",
+            "goals": {
+              "for": {
+                "total": 3,
+                "average": "0.6"
+              },
+              "against": {
+                "total": 5,
+                "average": "1.0"
+              }
+            }
+          },
+          "league": {
+            "form": "LDLDLDLWLWWLW",
+            "fixtures": {
+              "played": {
+                "home": 6,
+                "away": 7,
+                "total": 13
+              },
+              "wins": {
+                "home": 2,
+                "away": 2,
+                "total": 4
+              },
+              "draws": {
+                "home": 3,
+                "away": 0,
+                "total": 3
+              },
+              "loses": {
+                "home": 1,
+                "away": 5,
+                "total": 6
+              }
+            },
+            "goals": {
+              "for": {
+                "total": {
+                  "home": 7,
+                  "away": 4,
+                  "total": 11
+                },
+                "average": {
+                  "home": "1.2",
+                  "away": "0.6",
+                  "total": "0.8"
+                },
+                "minute": {
+                  "0-15": {
+                    "total": null,
+                    "percentage": null
+                  },
+                  "16-30": {
+                    "total": 4,
+                    "percentage": "40.00%"
+                  },
+                  "31-45": {
+                    "total": 2,
+                    "percentage": "20.00%"
+                  },
+                  "46-60": {
+                    "total": null,
+                    "percentage": null
+                  },
+                  "61-75": {
+                    "total": 3,
+                    "percentage": "30.00%"
+                  },
+                  "76-90": {
+                    "total": 1,
+                    "percentage": "10.00%"
+                  },
+                  "91-105": {
+                    "total": null,
+                    "percentage": null
+                  },
+                  "106-120": {
+                    "total": null,
+                    "percentage": null
+                  }
+                }
+              },
+              "against": {
+                "total": {
+                  "home": 6,
+                  "away": 14,
+                  "total": 20
+                },
+                "average": {
+                  "home": "1.0",
+                  "away": "2.0",
+                  "total": "1.5"
+                },
+                "minute": {
+                  "0-15": {
+                    "total": 3,
+                    "percentage": "14.29%"
+                  },
+                  "16-30": {
+                    "total": 4,
+                    "percentage": "19.05%"
+                  },
+                  "31-45": {
+                    "total": 2,
+                    "percentage": "9.52%"
+                  },
+                  "46-60": {
+                    "total": null,
+                    "percentage": null
+                  },
+                  "61-75": {
+                    "total": 5,
+                    "percentage": "23.81%"
+                  },
+                  "76-90": {
+                    "total": 4,
+                    "percentage": "19.05%"
+                  },
+                  "91-105": {
+                    "total": 3,
+                    "percentage": "14.29%"
+                  },
+                  "106-120": {
+                    "total": null,
+                    "percentage": null
+                  }
+                }
+              }
+            },
+            "biggest": {
+              "streak": {
+                "wins": 2,
+                "draws": 1,
+                "loses": 1
+              },
+              "wins": {
+                "home": "3-1",
+                "away": "0-1"
+              },
+              "loses": {
+                "home": "0-2",
+                "away": "4-0"
+              },
+              "goals": {
+                "for": {
+                  "home": 3,
+                  "away": 1
+                },
+                "against": {
+                  "home": 2,
+                  "away": 4
+                }
+              }
+            },
+            "clean_sheet": {
+              "home": 1,
+              "away": 2,
+              "total": 3
+            },
+            "failed_to_score": {
+              "home": 1,
+              "away": 3,
+              "total": 4
+            },
+            "penalty": {
+              "scored": {
+                "total": 0,
+                "percentage": "0%"
+              },
+              "missed": {
+                "total": 0,
+                "percentage": "0%"
+              },
+              "total": 0
+            },
+            "lineups": [],
+            "cards": {
+              "yellow": {
+                "0-15": {
+                  "total": 3,
+                  "percentage": "9.38%"
+                },
+                "16-30": {
+                  "total": 5,
+                  "percentage": "15.63%"
+                },
+                "31-45": {
+                  "total": 3,
+                  "percentage": "9.38%"
+                },
+                "46-60": {
+                  "total": 5,
+                  "percentage": "15.63%"
+                },
+                "61-75": {
+                  "total": 4,
+                  "percentage": "12.50%"
+                },
+                "76-90": {
+                  "total": 12,
+                  "percentage": "37.50%"
+                },
+                "91-105": {
+                  "total": null,
+                  "percentage": null
+                },
+                "106-120": {
+                  "total": null,
+                  "percentage": null
+                }
+              },
+              "red": {
+                "0-15": {
+                  "total": null,
+                  "percentage": null
+                },
+                "16-30": {
+                  "total": null,
+                  "percentage": null
+                },
+                "31-45": {
+                  "total": null,
+                  "percentage": null
+                },
+                "46-60": {
+                  "total": null,
+                  "percentage": null
+                },
+                "61-75": {
+                  "total": null,
+                  "percentage": null
+                },
+                "76-90": {
+                  "total": null,
+                  "percentage": null
+                },
+                "91-105": {
+                  "total": null,
+                  "percentage": null
+                },
+                "106-120": {
+                  "total": null,
+                  "percentage": null
+                }
+              }
+            }
+          }
+        },
+        "away": {
+          "id": 1180,
+          "name": "Deportivo Capiata",
+          "logo": "https://media.api-sports.io/football/teams/1180.png",
+          "last_5": {
+            "played": 5,
+            "form": "40%",
+            "att": "80%",
+            "def": "0%",
+            "goals": {
+              "for": {
+                "total": 4,
+                "average": "0.8"
+              },
+              "against": {
+                "total": 8,
+                "average": "1.6"
+              }
+            }
+          },
+          "league": {
+            "form": "WLWLDLDLLLLWW",
+            "fixtures": {
+              "played": {
+                "home": 7,
+                "away": 6,
+                "total": 13
+              },
+              "wins": {
+                "home": 3,
+                "away": 1,
+                "total": 4
+              },
+              "draws": {
+                "home": 0,
+                "away": 2,
+                "total": 2
+              },
+              "loses": {
+                "home": 4,
+                "away": 3,
+                "total": 7
+              }
+            },
+            "goals": {
+              "for": {
+                "total": {
+                  "home": 8,
+                  "away": 3,
+                  "total": 11
+                },
+                "average": {
+                  "home": "1.1",
+                  "away": "0.5",
+                  "total": "0.8"
+                },
+                "minute": {
+                  "0-15": {
+                    "total": 2,
+                    "percentage": "18.18%"
+                  },
+                  "16-30": {
+                    "total": null,
+                    "percentage": null
+                  },
+                  "31-45": {
+                    "total": 1,
+                    "percentage": "9.09%"
+                  },
+                  "46-60": {
+                    "total": 1,
+                    "percentage": "9.09%"
+                  },
+                  "61-75": {
+                    "total": 4,
+                    "percentage": "36.36%"
+                  },
+                  "76-90": {
+                    "total": 1,
+                    "percentage": "9.09%"
+                  },
+                  "91-105": {
+                    "total": 2,
+                    "percentage": "18.18%"
+                  },
+                  "106-120": {
+                    "total": null,
+                    "percentage": null
+                  }
+                }
+              },
+              "against": {
+                "total": {
+                  "home": 14,
+                  "away": 10,
+                  "total": 24
+                },
+                "average": {
+                  "home": "2.0",
+                  "away": "1.7",
+                  "total": "1.8"
+                },
+                "minute": {
+                  "0-15": {
+                    "total": 5,
+                    "percentage": "20.83%"
+                  },
+                  "16-30": {
+                    "total": 2,
+                    "percentage": "8.33%"
+                  },
+                  "31-45": {
+                    "total": 4,
+                    "percentage": "16.67%"
+                  },
+                  "46-60": {
+                    "total": 4,
+                    "percentage": "16.67%"
+                  },
+                  "61-75": {
+                    "total": 4,
+                    "percentage": "16.67%"
+                  },
+                  "76-90": {
+                    "total": 3,
+                    "percentage": "12.50%"
+                  },
+                  "91-105": {
+                    "total": 2,
+                    "percentage": "8.33%"
+                  },
+                  "106-120": {
+                    "total": null,
+                    "percentage": null
+                  }
+                }
+              }
+            },
+            "biggest": {
+              "streak": {
+                "wins": 1,
+                "draws": 1,
+                "loses": 4
+              },
+              "wins": {
+                "home": "3-1",
+                "away": "0-1"
+              },
+              "loses": {
+                "home": "0-6",
+                "away": "3-0"
+              },
+              "goals": {
+                "for": {
+                  "home": 3,
+                  "away": 1
+                },
+                "against": {
+                  "home": 6,
+                  "away": 3
+                }
+              }
+            },
+            "clean_sheet": {
+              "home": 1,
+              "away": 1,
+              "total": 2
+            },
+            "failed_to_score": {
+              "home": 3,
+              "away": 3,
+              "total": 6
+            },
+            "penalty": {
+              "scored": {
+                "total": 2,
+                "percentage": "100.00%"
+              },
+              "missed": {
+                "total": 0,
+                "percentage": "0%"
+              },
+              "total": 2
+            },
+            "lineups": [],
+            "cards": {
+              "yellow": {
+                "0-15": {
+                  "total": 5,
+                  "percentage": "12.20%"
+                },
+                "16-30": {
+                  "total": 5,
+                  "percentage": "12.20%"
+                },
+                "31-45": {
+                  "total": 7,
+                  "percentage": "17.07%"
+                },
+                "46-60": {
+                  "total": 12,
+                  "percentage": "29.27%"
+                },
+                "61-75": {
+                  "total": 6,
+                  "percentage": "14.63%"
+                },
+                "76-90": {
+                  "total": 6,
+                  "percentage": "14.63%"
+                },
+                "91-105": {
+                  "total": null,
+                  "percentage": null
+                },
+                "106-120": {
+                  "total": null,
+                  "percentage": null
+                }
+              },
+              "red": {
+                "0-15": {
+                  "total": null,
+                  "percentage": null
+                },
+                "16-30": {
+                  "total": null,
+                  "percentage": null
+                },
+                "31-45": {
+                  "total": null,
+                  "percentage": null
+                },
+                "46-60": {
+                  "total": 1,
+                  "percentage": "50.00%"
+                },
+                "61-75": {
+                  "total": 1,
+                  "percentage": "50.00%"
+                },
+                "76-90": {
+                  "total": null,
+                  "percentage": null
+                },
+                "91-105": {
+                  "total": null,
+                  "percentage": null
+                },
+                "106-120": {
+                  "total": null,
+                  "percentage": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "comparison": {
+        "form": {
+          "home": "60%",
+          "away": "40%"
+        },
+        "att": {
+          "home": "43%",
+          "away": "57%"
+        },
+        "def": {
+          "home": "62%",
+          "away": "38%"
+        },
+        "poisson_distribution": {
+          "home": "75%",
+          "away": "25%"
+        },
+        "h2h": {
+          "home": "29%",
+          "away": "71%"
+        },
+        "goals": {
+          "home": "40%",
+          "away": "60%"
+        },
+        "total": {
+          "home": "51.5%",
+          "away": "48.5%"
+        }
+      },
+      "h2h": [
+        {
+          "fixture": {
+            "id": 198706,
+            "referee": "J. Méndez",
+            "timezone": "UTC",
+            "date": "2019-07-27T19:30:00+00:00",
+            "timestamp": 1564255800,
+            "periods": {
+              "first": 1564255800,
+              "second": 1564259400
+            },
+            "venue": {
+              "id": null,
+              "name": "Estadio Lic. Erico Galeano Segovia (Capiatá)",
+              "city": null
+            },
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90
+            }
+          },
+          "league": {
+            "id": 252,
+            "name": "Division Profesional - Clausura",
+            "country": "Paraguay",
+            "logo": "https://media.api-sports.io/football/leagues/252.png",
+            "flag": "https://media.api-sports.io/flags/py.svg",
+            "season": 2019,
+            "round": "Clausura - 3"
+          },
+          "teams": {
+            "home": {
+              "id": 1180,
+              "name": "Deportivo Capiata",
+              "logo": "https://media.api-sports.io/football/teams/1180.png",
+              "winner": true
+            },
+            "away": {
+              "id": 1189,
+              "name": "Deportivo Santani",
+              "logo": "https://media.api-sports.io/football/teams/1189.png",
+              "winner": false
+            }
+          },
+          "goals": {
+            "home": 3,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 1,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 3,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 144182,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2019-03-25T23:15:00+00:00",
+            "timestamp": 1553555700,
+            "periods": {
+              "first": 1553555700,
+              "second": 1553559300
+            },
+            "venue": {
+              "id": null,
+              "name": "Estadio Lic. Erico Galeano Segovia (Capiatá)",
+              "city": null
+            },
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90
+            }
+          },
+          "league": {
+            "id": 250,
+            "name": "Division Profesional - Apertura",
+            "country": "Paraguay",
+            "logo": "https://media.api-sports.io/football/leagues/250.png",
+            "flag": "https://media.api-sports.io/flags/py.svg",
+            "season": 2019,
+            "round": "Regular Season - 12"
+          },
+          "teams": {
+            "home": {
+              "id": 1180,
+              "name": "Deportivo Capiata",
+              "logo": "https://media.api-sports.io/football/teams/1180.png",
+              "winner": true
+            },
+            "away": {
+              "id": 1189,
+              "name": "Deportivo Santani",
+              "logo": "https://media.api-sports.io/football/teams/1189.png",
+              "winner": false
+            }
+          },
+          "goals": {
+            "home": 2,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 2,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 2,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 144113,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2019-01-23T21:00:00+00:00",
+            "timestamp": 1548277200,
+            "periods": {
+              "first": 1548277200,
+              "second": 1548280800
+            },
+            "venue": {
+              "id": null,
+              "name": "Estadio Juan José Vázquez (San Estanislao)",
+              "city": null
+            },
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90
+            }
+          },
+          "league": {
+            "id": 250,
+            "name": "Division Profesional - Apertura",
+            "country": "Paraguay",
+            "logo": "https://media.api-sports.io/football/leagues/250.png",
+            "flag": "https://media.api-sports.io/flags/py.svg",
+            "season": 2019,
+            "round": "Regular Season - 1"
+          },
+          "teams": {
+            "home": {
+              "id": 1189,
+              "name": "Deportivo Santani",
+              "logo": "https://media.api-sports.io/football/teams/1189.png",
+              "winner": null
+            },
+            "away": {
+              "id": 1180,
+              "name": "Deportivo Capiata",
+              "logo": "https://media.api-sports.io/football/teams/1180.png",
+              "winner": null
+            }
+          },
+          "goals": {
+            "home": 0,
+            "away": 0
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 0
+            },
+            "fulltime": {
+              "home": 0,
+              "away": 0
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 144745,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2018-11-12T20:45:00+00:00",
+            "timestamp": 1542055500,
+            "periods": {
+              "first": 1542055500,
+              "second": 1542059100
+            },
+            "venue": {
+              "id": null,
+              "name": "Estadio Lic. Erico Galeano Segovia (Capiatá)",
+              "city": null
+            },
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90
+            }
+          },
+          "league": {
+            "id": 252,
+            "name": "Division Profesional - Clausura",
+            "country": "Paraguay",
+            "logo": "https://media.api-sports.io/football/leagues/252.png",
+            "flag": "https://media.api-sports.io/flags/py.svg",
+            "season": 2018,
+            "round": "Regular Season - 18"
+          },
+          "teams": {
+            "home": {
+              "id": 1180,
+              "name": "Deportivo Capiata",
+              "logo": "https://media.api-sports.io/football/teams/1180.png",
+              "winner": false
+            },
+            "away": {
+              "id": 1189,
+              "name": "Deportivo Santani",
+              "logo": "https://media.api-sports.io/football/teams/1189.png",
+              "winner": true
+            }
+          },
+          "goals": {
+            "home": 0,
+            "away": 2
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 0,
+              "away": 2
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          }
+        },
+        {
+          "fixture": {
+            "id": 144679,
+            "referee": null,
+            "timezone": "UTC",
+            "date": "2018-08-26T19:30:00+00:00",
+            "timestamp": 1535311800,
+            "periods": {
+              "first": 1535311800,
+              "second": 1535315400
+            },
+            "venue": {
+              "id": null,
+              "name": "Estadio Juan José Vázquez (San Estanislao)",
+              "city": null
+            },
+            "status": {
+              "long": "Match Finished",
+              "short": "FT",
+              "elapsed": 90
+            }
+          },
+          "league": {
+            "id": 252,
+            "name": "Division Profesional - Clausura",
+            "country": "Paraguay",
+            "logo": "https://media.api-sports.io/football/leagues/252.png",
+            "flag": "https://media.api-sports.io/flags/py.svg",
+            "season": 2018,
+            "round": "Regular Season - 7"
+          },
+          "teams": {
+            "home": {
+              "id": 1189,
+              "name": "Deportivo Santani",
+              "logo": "https://media.api-sports.io/football/teams/1189.png",
+              "winner": false
+            },
+            "away": {
+              "id": 1180,
+              "name": "Deportivo Capiata",
+              "logo": "https://media.api-sports.io/football/teams/1180.png",
+              "winner": true
+            }
+          },
+          "goals": {
+            "home": 0,
+            "away": 1
+          },
+          "score": {
+            "halftime": {
+              "home": 0,
+              "away": 1
+            },
+            "fulltime": {
+              "home": 0,
+              "away": 1
+            },
+            "extratime": {
+              "home": null,
+              "away": null
+            },
+            "penalty": {
+              "home": null,
+              "away": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}{
+  "api": {
+    "results": 1,
+    "predictions": [
+      {
+        "match_winner": "1 N",
+        "under_over": null,
+        "goals_home": "-2.5",
+        "goals_away": "-4.5",
+        "advice": "Double chance : Manchester City or draws",
+        "winning_percent": {
+          "home": "35%",
+          "draws": "35%",
+          "away": "30%"
+        },
+        "teams": {
+          "home": {
+            "team_id": 50,
+            "team_name": "Manchester City",
+            "last_5_matches": {
+              "forme": "73%",
+              "att": "50%",
+              "def": "79%",
+              "goals": 7,
+              "goals_avg": 1.4,
+              "goals_against": 3,
+              "goals_against_avg": 0.6
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 14,
+                  "away": 14,
+                  "total": 28
+                },
+                "wins": {
+                  "home": 10,
+                  "away": 9,
+                  "total": 19
+                },
+                "draws": {
+                  "home": 4,
+                  "away": 2,
+                  "total": 6
+                },
+                "loses": {
+                  "home": 0,
+                  "away": 3,
+                  "total": 3
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 34,
+                  "away": 29,
+                  "total": 63
+                },
+                "goalsAgainst": {
+                  "home": 12,
+                  "away": 16,
+                  "total": 28
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "2.4",
+                  "away": "2.1",
+                  "total": "2.3"
+                },
+                "goalsAgainst": {
+                  "home": "0.9",
+                  "away": "1.1",
+                  "total": "1.0"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 14,
+                "away": 21,
+                "total": 35
+              },
+              "wins": {
+                "home": 10,
+                "away": 10,
+                "total": 20
+              },
+              "draws": {
+                "home": 2,
+                "away": 5,
+                "total": 7
+              },
+              "loses": {
+                "home": 2,
+                "away": 6,
+                "total": 8
+              }
+            }
+          },
+          "away": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "last_5_matches": {
+              "forme": "100%",
+              "att": "100%",
+              "def": "86%",
+              "goals": 23,
+              "goals_avg": 4.6,
+              "goals_against": 2,
+              "goals_against_avg": 0.4
+            },
+            "all_last_matches": {
+              "matchs": {
+                "matchsPlayed": {
+                  "home": 14,
+                  "away": 14,
+                  "total": 28
+                },
+                "wins": {
+                  "home": 11,
+                  "away": 9,
+                  "total": 20
+                },
+                "draws": {
+                  "home": 2,
+                  "away": 2,
+                  "total": 4
+                },
+                "loses": {
+                  "home": 1,
+                  "away": 3,
+                  "total": 4
+                }
+              },
+              "goals": {
+                "goalsFor": {
+                  "home": 36,
+                  "away": 34,
+                  "total": 70
+                },
+                "goalsAgainst": {
+                  "home": 13,
+                  "away": 11,
+                  "total": 24
+                }
+              },
+              "goalsAvg": {
+                "goalsFor": {
+                  "home": "2.6",
+                  "away": "2.4",
+                  "total": "2.5"
+                },
+                "goalsAgainst": {
+                  "home": "0.9",
+                  "away": "0.8",
+                  "total": "0.9"
+                }
+              }
+            },
+            "last_h2h": {
+              "played": {
+                "home": 21,
+                "away": 14,
+                "total": 35
+              },
+              "wins": {
+                "home": 6,
+                "away": 2,
+                "total": 8
+              },
+              "draws": {
+                "home": 5,
+                "away": 2,
+                "total": 7
+              },
+              "loses": {
+                "home": 10,
+                "away": 10,
+                "total": 20
+              }
+            }
+          }
+        },
+        "h2h": [
+          {
+            "fixture_id": 194496,
+            "league_id": 701,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2010-10-24T15:00:00+00:00",
+            "event_timestamp": 1287932400,
+            "firstHalfStart": null,
+            "secondHalfStart": null,
+            "round": "Regular Season - 30",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium, Manchester (Manchester)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 194373,
+            "league_id": 701,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2011-01-05T19:45:00+00:00",
+            "event_timestamp": 1294256700,
+            "firstHalfStart": null,
+            "secondHalfStart": null,
+            "round": "Regular Season - 18",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 455605,
+            "league_id": 2091,
+            "league": {
+              "name": "League Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/48.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2011-11-29T20:00:00+00:00",
+            "event_timestamp": 1322596800,
+            "firstHalfStart": 1322596800,
+            "secondHalfStart": 1322600400,
+            "round": "Quarter-finals",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "0-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 193976,
+            "league_id": 700,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2011-12-18T16:10:00+00:00",
+            "event_timestamp": 1324224600,
+            "firstHalfStart": 1324224600,
+            "secondHalfStart": 1324228200,
+            "round": "Regular Season - 16",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium (Manchester)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 194136,
+            "league_id": 700,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2012-04-08T15:00:00+00:00",
+            "event_timestamp": 1333897200,
+            "firstHalfStart": 1333897200,
+            "secondHalfStart": 1333900800,
+            "round": "Regular Season - 32",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 193485,
+            "league_id": 699,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2012-09-23T15:00:00+00:00",
+            "event_timestamp": 1348412400,
+            "firstHalfStart": 1348412400,
+            "secondHalfStart": 1348416000,
+            "round": "Regular Season - 5",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium (Manchester)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "1-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 193656,
+            "league_id": 699,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2013-01-13T16:00:00+00:00",
+            "event_timestamp": 1358092800,
+            "firstHalfStart": 1358092800,
+            "secondHalfStart": 1358096400,
+            "round": "Regular Season - 22",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-2",
+              "fulltime": "0-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 193207,
+            "league_id": 698,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2013-12-14T12:45:00+00:00",
+            "event_timestamp": 1387025100,
+            "firstHalfStart": 1387025100,
+            "secondHalfStart": 1387028700,
+            "round": "Regular Season - 16",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium (Manchester)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 6,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "2-1",
+              "fulltime": "6-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 193373,
+            "league_id": 698,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2014-03-29T17:30:00+00:00",
+            "event_timestamp": 1396114200,
+            "firstHalfStart": 1396114200,
+            "secondHalfStart": 1396117800,
+            "round": "Regular Season - 32",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "1-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 452308,
+            "league_id": 2073,
+            "league": {
+              "name": "Community Shield",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/528.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2014-08-10T14:00:00+00:00",
+            "event_timestamp": 1407679200,
+            "firstHalfStart": 1407679200,
+            "secondHalfStart": 1407682800,
+            "round": "Final",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Wembley Stadium",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "2-0",
+              "fulltime": "3-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 192707,
+            "league_id": 697,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2014-09-13T11:45:00+00:00",
+            "event_timestamp": 1410608700,
+            "firstHalfStart": 1410608700,
+            "secondHalfStart": 1410612300,
+            "round": "Regular Season - 4",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium (London)",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "2-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 192895,
+            "league_id": 697,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2015-01-18T16:00:00+00:00",
+            "event_timestamp": 1421596800,
+            "firstHalfStart": 1421596800,
+            "secondHalfStart": 1421600400,
+            "round": "Regular Season - 22",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium (Manchester)",
+            "referee": "Mike Dean, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 192466,
+            "league_id": 696,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2015-12-21T20:00:00+00:00",
+            "event_timestamp": 1450728000,
+            "firstHalfStart": 1450728000,
+            "secondHalfStart": 1450731600,
+            "round": "Regular Season - 17",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Andre Marriner, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "2-0",
+              "fulltime": "2-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 192665,
+            "league_id": 696,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2016-05-08T15:00:00+00:00",
+            "event_timestamp": 1462719600,
+            "firstHalfStart": 1462719600,
+            "secondHalfStart": 1462723200,
+            "round": "Regular Season - 37",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "Anthony Taylor, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-1",
+              "fulltime": "2-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 17528,
+            "league_id": 56,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2016-12-18T16:00:00+00:00",
+            "event_timestamp": 1482076800,
+            "firstHalfStart": 1482076800,
+            "secondHalfStart": 1482080400,
+            "round": "Regular Season - 17",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "Martin Atkinson, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "2-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 17404,
+            "league_id": 56,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2017-04-02T15:00:00+00:00",
+            "event_timestamp": 1491145200,
+            "firstHalfStart": 1491145200,
+            "secondHalfStart": 1491148800,
+            "round": "Regular Season - 30",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Andre Marriner, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-2",
+              "fulltime": "2-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 210120,
+            "league_id": 760,
+            "league": {
+              "name": "FA Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/45.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2017-04-23T14:00:00+00:00",
+            "event_timestamp": 1492956000,
+            "firstHalfStart": 1492956000,
+            "secondHalfStart": 1492959600,
+            "round": "Semi-finals",
+            "status": "Match Finished",
+            "statusShort": "AET",
+            "elapsed": 120,
+            "venue": "Wembley Stadium",
+            "referee": "Craig Pawson, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-1",
+              "extratime": "2-1",
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 11804,
+            "league_id": 37,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2017-11-05T14:15:00+00:00",
+            "event_timestamp": 1509891300,
+            "firstHalfStart": 1509891300,
+            "secondHalfStart": 1509894900,
+            "round": "Regular Season - 11",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "Michael Oliver, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "3-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 455040,
+            "league_id": 2085,
+            "league": {
+              "name": "League Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/48.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2018-02-25T16:30:00+00:00",
+            "event_timestamp": 1519576200,
+            "firstHalfStart": 1519576200,
+            "secondHalfStart": 1519579800,
+            "round": "Final",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Wembley Stadium",
+            "referee": null,
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 11632,
+            "league_id": 37,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2018-03-01T19:45:00+00:00",
+            "event_timestamp": 1519933500,
+            "firstHalfStart": 1519933500,
+            "secondHalfStart": 1519937100,
+            "round": "Regular Season - 28",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Andre Marriner, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-3",
+              "fulltime": "0-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 74,
+            "league_id": 2,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2018-08-12T15:00:00+00:00",
+            "event_timestamp": 1534086000,
+            "firstHalfStart": 1534086000,
+            "secondHalfStart": 1534089600,
+            "round": "Regular Season - 1",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Michael Oliver, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 312,
+            "league_id": 2,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2019-02-03T16:30:00+00:00",
+            "event_timestamp": 1549211400,
+            "firstHalfStart": 1549211400,
+            "secondHalfStart": 1549215000,
+            "round": "Regular Season - 25",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "Martin Atkinson, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "2-1",
+              "fulltime": "3-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 157175,
+            "league_id": 524,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2019-12-15T16:30:00+00:00",
+            "event_timestamp": 1576427400,
+            "firstHalfStart": 1576427400,
+            "secondHalfStart": 1576431000,
+            "round": "Regular Season - 17",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Paul Tierney, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "0-3",
+              "fulltime": "0-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 157289,
+            "league_id": 524,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2020-06-17T19:15:00+00:00",
+            "event_timestamp": 1592421300,
+            "firstHalfStart": 1592421300,
+            "secondHalfStart": 1592424900,
+            "round": "Regular Season - 28",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "Anthony Taylor, England",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 3,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "3-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 566504,
+            "league_id": 1063,
+            "league": {
+              "name": "FA Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/45.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2020-07-18T18:45:00+00:00",
+            "event_timestamp": 1595097900,
+            "firstHalfStart": 1595097900,
+            "secondHalfStart": 1595101500,
+            "round": "Semi-finals",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": null,
+            "referee": "J. Moss",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "2-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 592186,
+            "league_id": 2790,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2020-10-17T16:30:00+00:00",
+            "event_timestamp": 1602952200,
+            "firstHalfStart": 1602952200,
+            "secondHalfStart": 1602955800,
+            "round": "Regular Season - 5",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "C. Kavanagh",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 639920,
+            "league_id": 2781,
+            "league": {
+              "name": "League Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/48.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2020-12-22T20:00:00+00:00",
+            "event_timestamp": 1608667200,
+            "firstHalfStart": 1608667200,
+            "secondHalfStart": 1608670800,
+            "round": "Quarter-finals",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Stuart Attwell, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 4,
+            "score": {
+              "halftime": "1-1",
+              "fulltime": "1-4",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 592736,
+            "league_id": 2790,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2021-02-21T16:30:00+00:00",
+            "event_timestamp": 1613925000,
+            "firstHalfStart": 1613925000,
+            "secondHalfStart": 1613928600,
+            "round": "Regular Season - 25",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "J. Moss",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 0,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-1",
+              "fulltime": "0-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 710580,
+            "league_id": 3456,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2021-08-28T11:30:00+00:00",
+            "event_timestamp": 1630150200,
+            "firstHalfStart": 1630150200,
+            "secondHalfStart": 1630153800,
+            "round": "Regular Season - 3",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "M. Atkinson",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 5,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "3-0",
+              "fulltime": "5-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 710756,
+            "league_id": 3456,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2022-01-01T12:30:00+00:00",
+            "event_timestamp": 1641040200,
+            "firstHalfStart": 1641040200,
+            "secondHalfStart": 1641043800,
+            "round": "Regular Season - 21",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "S. Attwell",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 2,
+            "score": {
+              "halftime": "1-0",
+              "fulltime": "1-2",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 986497,
+            "league_id": 4530,
+            "league": {
+              "name": "FA Cup",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/45.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2023-01-27T20:00:00+00:00",
+            "event_timestamp": 1674849600,
+            "firstHalfStart": 1674849600,
+            "secondHalfStart": 1674853200,
+            "round": "4th Round",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "P. Tierney",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 868057,
+            "league_id": 4335,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2023-02-15T19:30:00+00:00",
+            "event_timestamp": 1676489400,
+            "firstHalfStart": 1676489400,
+            "secondHalfStart": 1676493000,
+            "round": "Regular Season - 12",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "A. Taylor",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 3,
+            "score": {
+              "halftime": "1-1",
+              "fulltime": "1-3",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 868275,
+            "league_id": 4335,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2023-04-26T19:00:00+00:00",
+            "event_timestamp": 1682535600,
+            "firstHalfStart": 1682535600,
+            "secondHalfStart": 1682539200,
+            "round": "Regular Season - 33",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Etihad Stadium",
+            "referee": "M. Oliver",
+            "homeTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "awayTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "goalsHomeTeam": 4,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "2-0",
+              "fulltime": "4-1",
+              "extratime": null,
+              "penalty": null
+            }
+          },
+          {
+            "fixture_id": 1030795,
+            "league_id": 5224,
+            "league": {
+              "name": "Community Shield",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/528.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2023-08-06T15:00:00+00:00",
+            "event_timestamp": 1691334000,
+            "firstHalfStart": 1691334000,
+            "secondHalfStart": 1691337600,
+            "round": "Final",
+            "status": "Match Finished",
+            "statusShort": "PEN",
+            "elapsed": 120,
+            "venue": "Wembley Stadium",
+            "referee": "Stuart Attwell, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 1,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-1",
+              "extratime": "0-0",
+              "penalty": "4-1"
+            }
+          },
+          {
+            "fixture_id": 1035107,
+            "league_id": 5267,
+            "league": {
+              "name": "Premier League",
+              "country": "England",
+              "logo": "https://media.api-sports.io/football/leagues/39.png",
+              "flag": "https://media.api-sports.io/flags/gb.svg"
+            },
+            "event_date": "2023-10-08T15:30:00+00:00",
+            "event_timestamp": 1696779000,
+            "firstHalfStart": 1696779000,
+            "secondHalfStart": 1696782600,
+            "round": "Regular Season - 8",
+            "status": "Match Finished",
+            "statusShort": "FT",
+            "elapsed": 90,
+            "venue": "Emirates Stadium",
+            "referee": "Michael Oliver, England",
+            "homeTeam": {
+              "team_id": 42,
+              "team_name": "Arsenal",
+              "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "awayTeam": {
+              "team_id": 50,
+              "team_name": "Manchester City",
+              "logo": "https://media.api-sports.io/football/teams/50.png"
+            },
+            "goalsHomeTeam": 1,
+            "goalsAwayTeam": 0,
+            "score": {
+              "halftime": "0-0",
+              "fulltime": "1-0",
+              "extratime": null,
+              "penalty": null
+            }
+          }
+        ],
+        "comparison": {
+          "forme": {
+            "home": "42%",
+            "away": "58%"
+          },
+          "att": {
+            "home": "23%",
+            "away": "77%"
+          },
+          "def": {
+            "home": "40%",
+            "away": "60%"
+          },
+          "fish_law": {
+            "home": "43%",
+            "away": "57%"
+          },
+          "h2h": {
+            "home": "71%",
+            "away": "29%"
+          },
+          "goals_h2h": {
+            "home": "69%",
+            "away": "31%"
+          }
+        }
+      }
+    ]
+  }
+}
