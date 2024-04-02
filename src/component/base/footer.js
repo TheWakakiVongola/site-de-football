@@ -2,20 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div>
-      <div className="kf_ticker-wrap twitter_ticker">
-        <div className="container">
-          <div className="kf_ticker">
-            <span><i className="fa fa-twitter"></i></span>
-            <div className="kf_ticker_slider">
-              <ul className="ticker">
-                <li><p>C'est un site qui vous propose des cours, des exercices,des examens avec corrections <a href="https://oudev.net">https://oudev.net</a></p></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      
+    <div>      
       <footer className="kode_footer_2">
         <div className="container">
           <span className="go-up">
@@ -31,7 +18,7 @@ function Footer() {
                 <ul className="kf_contact_meta">
                   <li>
                     <span className="icon-placeholder"></span>
-                    <address>616 Street, RUE Trafford, New South Wales PARIS , FR</address>
+                    <address> 24 rue du Bignon, Rennes 35000, France</address>
                   </li>
                   <li>
                     <span className="icon-mail"></span>
@@ -49,20 +36,20 @@ function Footer() {
             <div className="widget widget_link2">
                         <h2 className="kf_hd7">Aider</h2>
                         <ul className="links_dec links_dec2">
-                            <li><a href="Actualités.html">Actualités</a></li>
+                            <li><a href="/Actualites">Actualités</a></li>
                             <li>
-                                <a href="Matche.html" tyle="color:#ffbe00;">Matches</a>
+                                <a href="/Matchs" tyle="color:#ffbe00;">Matches</a>
                             </li>
                             <li>
-                                <a href="Equipe.html">Équipes</a>
+                                <a href="/Equipes">Équipes</a>
                             </li>
                             <li>
-                                <a href="Joueurs.html">Joueurs</a>
+                                <a href="/Players">Joueurs</a>
                             </li>
                             <li>
-                                <a href="Championnats.html">Championnats</a>
+                                <a href="/Championnats">Championnats</a>
                             </li>
-                            <li><a href="contactus.html">Contactez-Nous</a></li>
+                            <li><a href="mailto:randomizer@gmail.com">Contactez-Nous</a></li>
                         </ul>
                     </div>
             </div>
@@ -99,26 +86,13 @@ function Footer() {
                     </div>
             </div>
             {/* Column 4: Instagram Widget */}
-            <div className="col-md-3">
-            <div className="widget widget_instagram">
-                        <h2 className="kf_hd7">widget Instagram</h2>
-                        <ul>
-                            <li><a href="#"><img src="static/static//insta1.jpg" alt="" /></a></li>
-                            <li><a href="#"><img src="static/extra-images/insta2.jpg" alt="" /></a></li>
-                            <li><a href="#"><img src="static/extra-images/insta3.jpg" alt="" /></a></li>
-                            <li><a href="#"><img src="static/extra-images/insta4.jpg" alt="" /></a></li>
-                            <li><a href="#"><img src="static/extra-images/insta5.jpg" alt="" /></a></li>
-                            <li><a href="#"><img src="static/extra-images/insta6.jpg" alt="" /></a></li>
-                        </ul>
-                    </div>
-            </div>
           </div>
         </div>
       </footer>
       
       <div className="copy_right3">
         <div className="container">
-          <p>2023 @ SportifElite<a href="#">Richarlison</a></p>
+          <p>2024@SportifElite<a href="https://digitallearning.eletsonline.com/wp-content/uploads/2015/10/School-Marks.jpg">B2A</a></p>
           <ul className="kf_social3">
             <li><a href="#"><i className="fa fa-facebook"></i></a></li>
             <li><a href="#"><i className="fa fa-twitter"></i></a></li>

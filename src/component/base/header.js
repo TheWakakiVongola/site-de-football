@@ -39,7 +39,7 @@ function Header() {
               <li><Link to="/Equipes"  style={{ color: window.location.pathname === "/Equipes" ? "#ffbe00" : "" }}>Équipes</Link></li>
               <li><Link to="/Players"  style={{ color: window.location.pathname === "/Players" ? "#ffbe00" : "" }}>Joueurs</Link></li>
               <li><Link to="/Championnats"  style={{ color: window.location.pathname === "/Championnats" ? "#ffbe00" : "" }}>Championnats</Link></li>
-              <li><a href="#"  style={{ color: window.location.pathname === "/contact" ? "#ffbe00" : "" }}>Contactez-Nous</a></li>
+              <li><a href="mailto:randomizer@gmail.com"  style={{ color: window.location.pathname === "/contact" ? "#ffbe00" : "" }}>Contactez-Nous</a></li>
             </ul>
 
             <div id="kode-responsive-navigation" className="dl-menuwrapper">
