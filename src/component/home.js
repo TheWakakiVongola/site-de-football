@@ -219,7 +219,7 @@ function Home() {
                                         <h6>Le courrier de l'Ouest</h6>                                
                                        <h2><a href="#">Italy</a> <small>VS</small><a href="#"> England</a></h2>
                                         <h2><a href="https://www.ouest-france.fr/sport/football/foot-amateur/deux-sevres-football-club-au-tallud-les-desnoues-sont-au-stade-comme-a-la-maison-47fc844c-e50b-11ee-b685-1479f5265e87">Deux-Sèvres football club. Au Tallud, les Desnoues sont au stade comme à la maison</a></h2>
-                                        <span>Mardi 19 mars</span>
+                                        <span>11 Sep, 2023 / Oulcaid Elmostafa</span>
                                         <p>Il est bien rare qu’on ne trouve pas plusieurs fois le même patronyme sur les feuilles de match de foot amateur. Fidèles du Tallud, Corentin et Clément Desnoues, qui y évoluent </p>
                                         <a className="btn_2" href="https://www.ouest-france.fr/sport/football/foot-amateur/deux-sevres-football-club-au-tallud-les-desnoues-sont-au-stade-comme-a-la-maison-47fc844c-e50b-11ee-b685-1479f5265e87">Lire plus</a>
                                     </div>
@@ -259,7 +259,7 @@ function Home() {
                                             <div className="text">
                                                 <h6>Ouest France</h6>                                
                                                 <h2><a href="https://dinan.maville.com/sport/detail_-football.-apres-le-chaos-contre-trabzonspor-fenerbahce-envisage-de-quitter-la-super-lig-_54135-6205146_actu.Htm">Après le chaos contre Trabzonspor, Fenerbahçe envisage de quitter la Süper Lig</a></h2>
-                                                <span>Lundi 18 mars 2024</span>
+                                                <span>11 Sep, 2023 / Oulcaid Elmostafa</span>
                                                 <p>Au lendemain d’une violente bagarre successive à l’envahissement du terrain à Trabzon, la direction du club de Fenerbahçe a annoncé, ce lundi 18 mars, envisager de se retirer de la Süper Lig, le championnat turc de football. </p>
                                                 <a className="btn_2" href="https://dinan.maville.com/sport/detail_-football.-apres-le-chaos-contre-trabzonspor-fenerbahce-envisage-de-quitter-la-super-lig-_54135-6205146_actu.Htm">Lire plus</a>
                                             </div>
@@ -537,7 +537,7 @@ function Home() {
                                         </div>
                                     </div>
                     
-                        {/*<div className="widget widget_recentnews gallery">
+                        <div className="widget widget_recentnews gallery">
                          
                             <h6 className="kf_hd1">
                                 <span>Actualité</span>
@@ -592,7 +592,7 @@ function Home() {
                                 </div>
                              
                             </div>
-                                                </div>    */}                   
+                        </div>                       
                         <div className="widget widget_newsletter">
                           
                             <h6 className="kf_hd1">

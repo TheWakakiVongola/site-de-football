@@ -23,7 +23,7 @@ function Actualites() {
                             <div className="kf_blog_detail_thumb">
                                 <div className="kf_featured_thumb">
                                     <figure>
-                                        <img src="https://images.lindependant.fr/api/v1/images/view/660a9fb9e6f2a30494724c5d/large/image.jpg?v=1" alt="" />
+                                        <img src="static/extra-images/feature_list_1.jpg" alt="" />
                                     </figure>
                                     <div className="text_wrper">
                                         <div className="thumb_footer">
@@ -44,34 +44,126 @@ function Actualites() {
                                             </ul>
                                         </div>
                                         <div className="text_2">
-                                            <span className="label2"> L'indépendant</span>
-                                            <h6><a href="#">Dani Alves avait été placé en détention provisoire dans le centre pénitentiaire de Brians 2 dès son arrestation en janvier 2023.</a></h6>
-                                            <em className="kf_date">1 avril 2024</em>
-                                            <p>Le lundi 25 mars, le Tribunal de Barcelone avait annoncé que l’ancien footballeur brésilien, Dani Alves, avait été libéré de prison après le paiement d’une caution d’un million d’euros. Ce même tribunal avait accepté, la semaine précédente, la libération conditionnelle de Dani Alves, qui a fait appel de sa condamnation dans une affaire de viol. </p>
+                                            <span className="label2">Copa 2023</span>
+                                            <h6><a href="#">Le prochain macth contre le</a></h6>
+                                            <em className="kf_date">11 September, 2023</em>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, </p>
                                             <p>
-                                            Pour rappel, il avait été placé en détention provisoire dans le centre pénitentiaire de Brians 2 dès son arrestation en janvier 2023, après avoir été accusé du viol d’une jeune femme dans la nuit du 30 au 31 décembre 2022, dans une discothèque de Barcelone. 
-                                            </p>                                           
+                                                Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor nequeu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim hasell moytrirolestie magna non lorem ipsum dolor site amet retituros est moytrirolestie venenatis lectus vestibulum 
+                                            </p>     
+                                            <div className="kf_highlight">
+                                                <h5 className="kf_hd6">jeu met en évidence</h5>
+                                                <div className="row">
+                                                    <div className="col-md-5">
+                                                        <div className="thumb">
+                                                            <img src="static/extra-images/latestthumb.jpg" alt="" />
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-7">
+                                                        <div className="text">
+                                                            <p>Vivamus. Sed auctor nequeu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim hasell moytrirolestie magna non lorem ipsum dolor site amet retituros est bibendum anon venenatis lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+                                                            <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor nequeu tellus rhoncus ut eleifend nibh porttitor.</p>
+                                                            <ul className="list_meta">
+                                                                <li><em>Vivamus hendrerit arcu sed erat molestie vehicula.</em></li>
+                                                                <li><em>sed diam nonumy eirmod tempor invidunt ut labore</em></li>
+                                                                <li><em>In pellentesque faucibus vestibulum.</em></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>    
+                                           
                                             <blockquote className="kf_blockquote">
-                                                <p>\ud83d\udcb6Dani #Alves accusé de viol : "Pour nous, pour notre famille, le sujet est clos. Point final !", le père de #Neymar ne paiera pas la caution pour libérer le footballeur https://t.co/1wcbA7a1Pu via @lindependant</p>
+                                                <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor nequeu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim hasell moytrirolestie magna</p>
                                             </blockquote>   
                                             <p className="margin-0">
-                                            Mais qui a payé la caution de l’ancien joueur du Barça ? Si dans un premier temps, la presse espagnole avait évoqué la possibilité que ce soit la famille de Neymar qui paie l'addition, le père de la star brésilienne avait démenti les informations selon lesquelles Alves aurait de nouveau eu recours à l’aide financière de sa famille. <br/>
-
-Selon el Mundo deportivo, c'est finalement un magazine brésilien qui aurait payé la caution du joueur. Sur le plateau de l'émission Fiesta, au Brésil, la journaliste Marisa Blazquez a indiqué que "la revue, connue au Brésil, fait d'excellents reportages sur des personnages importants au Brésil, mais aussi à l'échelle internationale et l'aurait fait en échange d'un reportage qui serait déjà en cours".<br/>
-
-Elle précise que cette interview sera présentée comme une vidéo documentaire qui retracera sa vie footballeur.                                             
+                                                Lorem ipsum doirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore Lorem ipsum dolor sit amet, consetetur sadipscing elitr,                                             
                                             </p>
                                         </div> 
                                         <div className="tags_wrap">
                                             <ul className="kf_tags kf_tags2">
                                                 <li><a href="#">Joueurs</a></li>
-                                                <li><a href="#">Drames</a></li>
+                                                <li><a href="#">Équipes</a></li>
+                                                <li><a href="Championnats.html" >Championnats</a></li>
                                             </ul>
                                             <ul className="kf_social2">
                                                 <li><a href="#" className="fa fa-facebook"></a></li>
                                                 <li><a href="#" className="fa fa-twitter"></a></li>
                                                 <li><a href="#" className="fa fa-rss"></a></li>
                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h6 className="kf_hd1">
+                                        <span>Gallery of</span>
+                                    </h6>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="kf_featured_thumb">
+                                        <figure>
+                                            <img src="static/extra-images/feature_3.jpg" alt="" />
+                                        </figure>
+                                        <div className="text_wrper">
+                                            <div className="text">
+                                                <h6>Fifa world cup 2023</h6>                                
+                                                <h2><a href="#">Italy</a> <small>VS</small><a href="#"> England</a></h2>
+                                                <span>11 Sep, 2023 / Oulcaid Elmostafa</span>
+                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod ut labore et dolore magna aliquyam </p>
+                                                <a className="btn_2" href="/Actualités_détails">Lire plus</a>
+                                            </div>
+                                            <div className="thumb_footer">
+                                                <div className="admin_thumb">
+                                                    <figure><img src="static/extra-images/admin.jpg" alt="" /></figure>
+                                                    <h6><a href="#">Alba Smith</a></h6>
+                                                </div>
+                                                <ul className="blog_meta">
+                                                    <li>
+                                                        <span><i className="fa fa-eye"></i>169</span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="heart"><i className="fa fa-heart-o"></i>477</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i className="fa fa-comment-o"></i>09</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="kf_featured_thumb">
+                                        <figure>
+                                            <img src="static/extra-images/feature_4.jpg" alt="" />
+                                        </figure>
+                                        <div className="text_wrper">
+                                            <div className="text">
+                                                <h6>Fifa world cup 2023</h6>                                
+                                                <h2><a href="#">Italy</a> <small>VS</small><a href="#"> England</a></h2>
+                                                <span>11 Sep, 2023 / Oulcaid Elmostafa</span>
+                                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod ut labore et dolore magna aliquyam </p>
+                                                <a className="btn_2" href="/Actualités_détails">Lire plus</a>
+                                            </div>
+                                            <div className="thumb_footer">
+                                                <div className="admin_thumb">
+                                                    <figure><img src="static/extra-images/admin.jpg" alt="" /></figure>
+                                                    <h6><a href="#">Alba Smith</a></h6>
+                                                </div>
+                                                <ul className="blog_meta">
+                                                    <li>
+                                                        <span><i className="fa fa-eye"></i>169</span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="heart"><i className="fa fa-heart-o"></i>477</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i className="fa fa-comment-o"></i>09</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +250,7 @@ Elle précise que cette interview sera présentée comme une vidéo documentaire
                         </div>
                     </div>
                     <aside className="col-md-4">
-                        {/*<div className="widget widget_recentnews gallery">
+                        <div className="widget widget_recentnews gallery">
                             <h6 className="kf_hd1">
                                 <span>Actualité</span>
                             </h6>
@@ -249,7 +341,7 @@ Elle précise que cette interview sera présentée comme une vidéo documentaire
                                     </ul>
                                 </div>
                             </div>
-  </div>*/}
+                        </div>
                     
 
                             <div className="widget widget_newsletter">
